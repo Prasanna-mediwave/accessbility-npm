@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+      @apply font-header  text-4xl font-normal !text-titleColor  md:text-6xl;
+    }
+    h2 {
+      @apply font-header text-3xl font-normal !text-titleColor  md:text-5xl;
+    }
+    h3 {
+      @apply font-body text-lg font-semibold text-titleColor  md:text-xl;
+    }
+    h4 {
+      @apply font-body text-lg font-medium text-baseColor;
+    }
+    h5 {
+      @apply font-body text-base font-semibold text-baseColor;
+    }
+    p,
+    span,
+    ul,
+    li,
+    legend,
+    div {
+      @apply font-body text-sm font-normal text-baseColor  sm:text-base;
+    }
+    b {
+      @apply font-body text-sm text-baseColor  sm:text-base;
+    }
+    button {
+      @apply text-base;
+    }
+    a {
+      @apply text-sm text-primary  hover:underline sm:text-base;
+    }
+    li > a {
+      @apply text-base text-primary  hover:underline sm:text-lg;
+    }
+    small {
+      @apply text-sm text-baseColor;
+    }
+    ul li::marker {
+      @apply text-titleColor;
+    }
+  
+    p:contains('@') {
+      @apply !lowercase first-letter:!lowercase;
+    }
+    input:contains('@'),
+    optgroup:contains('@'),
+    select:contains('@'),
+    textarea:contains('@'),
+    div:contains('@') {
+      @apply !lowercase first-letter:!lowercase;
+    }
+  
+    input,
+    optgroup,
+    select,
+    textarea {
+      @apply !text-baseColor;
+    }
+    ::placeholder,
+    .react-select__placeholder,
+    .css-1jqq78o-placeholder {
+      @apply !font-body text-base tracking-normal !text-baseColor text-opacity-60;
+    }
+  
+    /* CSS to hide the title element on hover */
+    svg title:hover {
+      visibility: hidden !important;
+    }
+    /* CSS to hide the title element on hover */
+    button svg title {
+      display: none;
+    }
+  
+    svg title::-webkit-details-marker {
+      display: none;
+    }
+  
+    @font-face {
+      font-family: 'fontello';
+      src: url('../src/assets/fonts/fontello.eot?31784277');
+      src: url('../src/assets/fonts/fontello.eot?31784277#iefix')
+          format('embedded-opentype'),
+        url('../src/assets/fonts/fontello.woff2?31784277') format('woff2'),
+        url('../src/assets/fonts/fontello.woff?31784277') format('woff'),
+        url('../src/assets/fonts/fontello.ttf?31784277') format('truetype'),
+        url('../src/assets/fonts/fontello.svg?31784277#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
+  
+  .theme-default {
+    --primary: 4 94 179;
+    --primary-content: 255 255 255;
+    --primary-states: 3 60 124;
+    --secondary: 255 255 255;
+    --secondary-content: 4 94 179;
+    --accent: 55 165 144;
+    --accent-content: 255 255 255;
+    --baseColor: 49 49 49;
+    --titleColor: 4 94 179;
+    --container: 248 248 248;
+    --neutral: 255 255 255;
+    --outline: 191 191 191;
+    --info: 37 99 235;
+    --success: 18 110 52;
+    --warning: 255 95 73;
+    --error: 220 38 38;
+    --disabled: 233 236 239;
+    --transparent: transparent;
+    --mood-verypoorly: #df5757;
+    --mood-poor: #f2c00e;
+    --mood-alright: #1b67bc;
+    --mood-well: #17a2b8;
+    --mood-verywell: #37a590;
+    --font-header: 'Montserrat', 'sans-serif';
+    --font-body: 'Montserrat', 'sans-serif';
+  }
+  
+  .Dark {
+    --primary: 187 134 252;
+    --primary-content: 42 42 42;
+    --primary-states: 178 115 255;
+    --secondary: 88 88 88;
+    --secondary-content: 187 134 252;
+    --accent: 0 196 180;
+    --accent-content: 255 255 255;
+    --baseColor: 199 199 204;
+    --titleColor: 187 134 252;
+    --container: 33 31 32;
+    --neutral: 42 42 42;
+    --outline: 191 191 191;
+    --info: 37 99 235;
+    --success: 18 110 52;
+    --warning: 255 95 73;
+    --error: 220 38 38;
+    --disabled: 108 108 108;
+    --transparent: transparent;
+    --mood-verypoorly: #df5757;
+    --mood-poor: #f2c00e;
+    --mood-alright: #1b67bc;
+    --mood-well: #17a2b8;
+    --mood-verywell: #37a590;
+    --font-header: 'Montserrat', 'sans-serif';
+    --font-body: 'Montserrat', 'sans-serif';
+  }
+  
+  .Dyslexia {
+    --primary: 18 137 47;
+    --primary-content: 255 255 255;
+    --primary-states: 13 106 36;
+    --secondary: 54 155 123;
+    --secondary-content: 24 213 234;
+    --accent: 34 64 112;
+    --accent-content: 255 255 255;
+    --baseColor: 11 24 30;
+    --titleColor: 18 137 47;
+    --container: 247 247 247;
+    --neutral: 255 255 255;
+    --outline: 191 191 191;
+    --info: 37 99 235;
+    --success: 18 110 52;
+    --warning: 255 95 73;
+    --error: 220 38 38;
+    --disabled: 233 236 239;
+    --transparent: transparent;
+    --mood-verypoorly: #df5757;
+    --mood-poor: #f2c00e;
+    --mood-alright: #1b67bc;
+    --mood-well: #17a2b8;
+    --mood-verywell: #37a590;
+    --font-header: 'Montserrat', 'sans-serif';
+    --font-body: 'Montserrat', 'sans-serif';
+  }
+  
+  .Visibility {
+    --primary: 0 122 194;
+    --primary-content: 255 255 255;
+    --primary-states: 2 102 160;
+    --secondary: 255 255 255;
+    --secondary-content: 0 122 194;
+    --accent: 255 157 0;
+    --accent-content: 11 24 30;
+    --baseColor: 11 24 30;
+    --titleColor: 0 122 194;
+    --container: 243 242 252;
+    --neutral: 255 255 255;
+    --outline: 191 191 191;
+    --info: 37 99 235;
+    --success: 18 110 52;
+    --warning: 255 95 73;
+    --error: 220 38 38;
+    --disabled: 233 236 239;
+    --transparent: transparent;
+    --mood-verypoorly: #df5757;
+    --mood-poor: #f2c00e;
+    --mood-alright: #1b67bc;
+    --mood-well: #17a2b8;
+    --mood-verywell: #37a590;
+    --font-header: 'Montserrat', 'sans-serif';
+    --font-body: 'Montserrat', 'sans-serif';
+  }
+  
+  .testing-css {
+    background-color: #fff;
+  }
+  

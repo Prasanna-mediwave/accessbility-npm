@@ -1,0 +1,99 @@
+/*Letter spacing A styles*/
+
+.mw-lh-a {
+    line-height: 1.75rem;
+  }
+  .mw-lh-a h1 {
+    line-height: 3rem;
+  }
+  .mw-lh-a h2 {
+    line-height: 2.75rem;
+  }
+  .mw-lh-a h3 {
+    line-height: 2.5rem;
+  }
+  .mw-lh-a h4 {
+    line-height: 2.25rem;
+  }
+  .mw-lh-a h5 {
+    line-height: 1.75rem;
+  }
+  .mw-lh-a h6 {
+    line-height: 1.75rem;
+  }
+  .mw-lh-a p {
+    line-height: 1.75rem;
+  }
+  .mw-lh-a label {
+    line-height: 1.75rem;
+  }
+  .mw-lh-a legend {
+    line-height: 1.75rem;
+  }
+  
+  /*Letter spacing B styles*/
+  
+  .mw-lh-b {
+    line-height: 2rem;
+  }
+  .mw-lh-b h1 {
+    line-height: 3.25rem;
+  }
+  .mw-lh-b h2 {
+    line-height: 3rem;
+  }
+  .mw-lh-b h3 {
+    line-height: 2.75rem;
+  }
+  .mw-lh-b h4 {
+    line-height: 2.5rem;
+  }
+  .mw-lh-b h5 {
+    line-height: 2rem;
+  }
+  .mw-lh-b h6 {
+    line-height: 2rem;
+  }
+  .mw-lh-b p {
+    line-height: 2rem;
+  }
+  .mw-lh-b label {
+    line-height: 2rem;
+  }
+  .mw-lh-b legend {
+    line-height: 2rem;
+  }
+  
+  /*Letter spacing C styles*/
+  
+  .mw-lh-c {
+    line-height: 2.25rem;
+  }
+  .mw-lh-c h1 {
+    line-height: 3.5rem;
+  }
+  .mw-lh-c h2 {
+    line-height: 3.25rem;
+  }
+  .mw-lh-c h3 {
+    line-height: 3rem;
+  }
+  .mw-lh-c h4 {
+    line-height: 2.75rem;
+  }
+  .mw-lh-c h5 {
+    line-height: 2.25rem;
+  }
+  .mw-lh-c h6 {
+    line-height: 2.25rem;
+  }
+  .mw-lh-c p {
+    line-height: 2.25rem;
+  }
+  .mw-lh-c label {
+    line-height: 2.25rem;
+  }
+  .mw-lh-c legend {
+    line-height: 2.25rem;
+  }
+  

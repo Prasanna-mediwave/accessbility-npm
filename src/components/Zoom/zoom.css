@@ -1,0 +1,27 @@
+/*Font size A styles*/
+.mw-size-a {
+    zoom: 105%;
+  }
+  
+  /*Font size B styles*/
+  .mw-size-b {
+    zoom: 110%;
+  }
+  
+  /*Font size C styles*/
+  .mw-size-c {
+    zoom: 115%;
+  }
+  
+  @media (max-width: 768px) {
+    .mw-size-a {
+      zoom: 101%;
+    }
+    .mw-size-b {
+      zoom: 104%;
+    }
+    .mw-size-c {
+      zoom: 107%;
+    }
+  }
+  
