@@ -1,0 +1,17 @@
+.mw-addruler {
+    @apply  bg-baseColor bg-opacity-50;
+
+    position: fixed; 
+top: 0; 
+left: 0; 
+width: 100%; 
+z-index: 99999;
+  }
+  
+  .mw-addruler::after {
+    @apply absolute bottom-0 h-[200px] w-full bg-card;
+    content: '';
+    background-image: url(/src/assets/images/ruler-measurements.png);
+    background-repeat: repeat-x;
+  }
+  

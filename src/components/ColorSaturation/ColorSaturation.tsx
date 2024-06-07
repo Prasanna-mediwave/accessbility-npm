@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import useCustomState from "../../hooks/useCustomState/useCustomState";
+import useCustomState from "../../hooks/useCustomState";
 import { applyColorSaturation, removeColorSaturation } from "./func";
 
 interface ColorSaturationProps {

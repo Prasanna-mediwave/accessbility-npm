@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import useCustomState from "../../hooks/useCustomState/useCustomState";
+import useCustomState from "../../hooks/useCustomState";
 import "./highlightLink.css";
 
 interface HighlightLinkProps {

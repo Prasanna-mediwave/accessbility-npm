@@ -5,3 +5,4 @@ export { Zoom } from "./components/Zoom/Zoom";
 export {FontSize} from "./components/FontSize/FontSize"
 export {HighlightLink} from "./components/HighlightLink/HighlightLink"
 export {BigCursor}from './components/BigCursor/BigCursor'
+export {Ruler}from "./components/Ruler/Ruler"
